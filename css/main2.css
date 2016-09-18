@@ -1,0 +1,292 @@
+.top{
+    position: relative;
+    width: 850px;
+    height: 788px;
+    top: 85px;
+    margin: 0 auto;
+}
+
+.diamond{
+    position: absolute;
+    width: 850px;
+    height: 788px;
+}
+
+.t-moji{
+    position: relative;
+    top: -1226px;
+    left: -120px;
+    padding: -38px;
+    z-index: 0;
+}
+
+.diamond1{
+    position: relative;
+    left: -98px;
+    top: 75px;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    z-index: 1;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    overflow: hidden;
+}
+
+.diamond1 canvas{
+    position: absolute;
+    top: -62px;
+    left: -62px;
+    z-index: 1;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.ripple-dia1{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 0px;
+    height: 0px;
+    z-index: 2;
+    background-color: transparent;
+    border: solid 139px #000;
+    opacity: .2;
+}
+
+.diamond1 h1{
+    position: absolute;
+    top: 84px;
+    left: 69px;
+    font-size: 53px;
+    font-family: nicomoji;
+    z-index: 3;
+    color: #fff;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.waku1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 278px;
+    height: 278px;
+    z-index: 4;
+    background: transparent;
+    border: solid 12px #c33125;
+}
+
+.diamond2{
+    position: relative;
+    left: 255px;
+    top: -240px;
+    width: 225px;
+    height: 225px;
+    margin: auto;
+    z-index: 1;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    overflow: hidden;
+}
+
+.diamond3{
+    position: relative;
+    left: 8px;
+    top: -111px;
+    width: 225px;
+    height: 225px;
+    margin: auto;
+    z-index: 1;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    overflow: hidden;
+}
+
+.diamond4{
+    position: relative;
+    left: 308px;
+    top: -390px;
+    width: 225px;
+    height: 225px;
+    margin: auto;
+    z-index: 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    overflow: hidden;
+}
+
+
+.diamond2 canvas,
+.diamond3 canvas,
+.diamond4 canvas{
+    position: absolute;
+    top: -48px;
+    left: -48px;
+    z-index: 2;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.ripple-dia2,
+.ripple-dia3,
+.ripple-dia4{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 0px;
+    height: 0px;
+    z-index: 3;
+    background-color: transparent;
+    border: solid 107px #000;
+    opacity: .2;
+}
+
+.diamond2 h1,
+.diamond3 h1,
+.diamond4 h1{
+    position: absolute;
+    top: 77px;
+    left: 48px;
+    font-size: 32px;
+    font-family: nicomoji;
+    color: #fff;
+    z-index: 4;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.waku2,
+.waku3,
+.waku4{
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    width: 212px;
+    height: 212px;
+    margin: auto;
+    background: transparent;
+    z-index: 5;
+    overflow: hidden;
+    border: solid 8px #b5b5b5;
+}
+
+.waku4{
+    border: solid 8px #252525;
+}
+
+.diamond5{
+    position: relative;
+    left: 188px;
+    top: -405px;
+    width: 113px;
+    height: 113px;
+    margin: auto;
+    background-color: #a7e8f6;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    overflow: hidden;
+}
+
+.diamond5 h1{
+    position: absolute;
+    top: 30px;
+    left: 8px;
+    z-index: 3;
+    font-size: 19px;
+    font-family: nicomoji;
+    color: #b5b5b5;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.diamond6{
+    position: relative;
+    left: -342px;
+    top: -1029px;
+    width: 135px;
+    height: 135px;
+    margin: auto;
+    z-index: 1;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    overflow: hidden;
+}
+
+.diamond6 h1{
+    position: absolute;
+    top: 45px;
+    left: 24px;
+    z-index: 3;
+    font-size: 19px;
+    font-family: nicomoji;
+    color: #000;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.diamond7{
+    position: relative;
+    left: -176px;
+    top: -645px;
+    width: 135px;
+    height: 135px;
+    margin: auto;
+    z-index: 2;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    overflow: hidden;
+}
+
+.diamond7 h1{
+    position: absolute;
+    top: 45px;
+    left: 14px;
+    z-index: 3;
+    font-size: 19px;
+    font-family: nicomoji;
+    color: #c9c9c9;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.diamond8{
+    position: relative;
+    left: 80px;
+    top: -1365px;
+    width: 135px;
+    height: 135px;
+    margin: auto;
+    z-index: 5;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    overflow: hidden;
+}
+
+.diamond8 h1{
+    position: absolute;
+    top: 43px;
+    left: 13px;
+    z-index: 10;
+    font-size: 19px;
+    font-family: nicomoji;
+    color: #c9c9c9;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}

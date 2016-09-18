@@ -1,0 +1,61 @@
+.ripple{
+    /* エフェクトに直接関係はない */
+    background-color: transparent;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+
+    /* 必須 */
+    overflow: visible;
+    position: relative;
+}
+
+/* エフェクト要素 */
+.ripple__effect {
+    /* 値の変更はエフェクト形体・サイズ・スピードに影響する */
+    width: 80px;
+    height: 80px;
+    z-index: 10;
+    overflow: visible;
+
+    /* 必須 */
+    position: absolute;
+    border-radius: 100%;
+    pointer-events: none;
+    transform: scale(0);
+    opacity: 0;
+}
+
+/* エフェクト要素の色を指定 */
+.ripple__effect.is-orange{
+    background: #f1c40f;
+}
+
+.ripple__effect.is-blue{
+    background: #4aa3df;
+}
+
+.ripple__effect.is-black{
+    background: #999;
+}
+
+.ripple__effect.is-red{
+    background: #d91e18;
+}
+
+/* classが付与されたらアニメーションを実行 */
+.ripple__effect.is-show {
+    animation: ripple 0.75s ease-out;
+}
+
+/* アニメーションの定義 */
+@keyframes ripple {
+    from {
+        opacity: 1;
+    }
+    to {
+        transform: scale(2);
+        opacity: 0;
+    }
+}

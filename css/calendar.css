@@ -1,0 +1,67 @@
+/* テーブル全体設定*/
+#schedule #contents h2{
+    padding: 5px 10px;
+    margin: 0 auto;
+}
+
+#calendar{
+    position:relative;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    top: 0px;
+}
+
+#calendar table{
+    font-size: 15px;
+    color: #000;
+    border: 3px solid #ddd;
+    background-color: #fff;
+    float: left;
+    margin: 15px;
+}
+
+/* キャプション */
+#calendar table caption{
+    color: #000;
+}
+
+#calendar tr{
+    background-color: #eee;
+}
+
+/* 曜日行 */
+#calendar tr.dow{
+    background-color: #ccc;
+}
+
+#calendar tr.dow td{
+    width: 30px;
+}
+
+#calendar td{
+    font-size: 95%;
+    text-align: center;
+    height: 25px;
+}
+
+/* 祝日の文字色 */
+#calendar td.hol{
+    color: #DC143C;
+}
+
+/* 日曜日 */
+#calendar td.sun{
+    color: #FF4500;
+}
+
+/* 土曜日 */
+#calendar td.sat{
+    color: #4169E1;
+}
+
+/* 更新日 */
+#calendar td.rest{
+    color: #fffaf0;
+    background: #80e5ff;
+}

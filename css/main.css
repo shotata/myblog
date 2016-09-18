@@ -1,0 +1,420 @@
+.main{
+    position: relative;
+    width: 638px;
+    height: 720px;
+    padding: 0px;
+    top: 50px;
+    margin: 0 auto;
+    font-family: "honoka";
+    border:solid 3px #252525;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+.main img{
+    overflow: hidden;
+}
+
+.body-left canvas{
+    position: relative;
+    top: -3px;
+    left: -3px;
+    border:solid 3px transparent;
+    overflow: hidden;
+    z-index: 2;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+.blur0,
+.blur1,
+.blur2,
+.blur3,
+.blur4{
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    z-index: 5;
+    overflow: hidden;
+    border: solid 3px transparent;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+}
+
+.blur0{
+    width: 458px;
+    height: 274px;
+}
+
+.blur1,.blur4{
+    width: 338px;
+    height: 188px;
+}
+
+.blur2,.blur3{
+    width: 255px;
+    height: 188px;
+}
+
+.circle0,
+.circle1,
+.circle2,
+.circle3,
+.circle4{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    width: 0px;
+    height: 0px;
+    -webkit-border-radius: 50%; /* width,heightの半分 */
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    z-index: 25;
+    opacity: 1;
+    background-color: #fffaf0;
+    display: block;
+}
+
+.index{
+    position: relative;
+    float: left;
+    top: 15px;
+    left: 12px;
+    width: 135px;
+    height: 270px;
+    background-color: #4aa3df;
+    opacity: 1;
+    border:solid 3px #252525;
+    overflow: hidden;
+    font-family: "lightnovelPOP";
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+.index img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.in-menu{
+    position: relative;
+    top: 0px;
+    left: -10px;
+    width: 105px;
+    height: 270px;
+    z-index: 1;
+}
+
+.in-menu li{
+    width: 60px;
+    height: 19px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    list-style: none;
+    width: auto;
+    color: #111;
+    font-size: 10px;
+}
+
+.in-menu li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.in-menu li a:hover{
+    color: #b5b5b5;
+}
+
+.d-mark{
+    position: absolute;
+    left: -19px;
+    width: 8px;
+    height: 8px;
+    background-color: #b5b5b5;
+    z-index: 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.avoid{
+    width: 100%;
+    height: 100%;
+    color: #000;
+}
+
+.contents0{
+    position: relative;
+    float: left;
+    left: 20px;
+    top: 11px;
+    width: 458px;
+    height: 274px;
+    z-index: 1;
+    overflow: hidden;
+    border:solid 3px #252525;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+.baloon-0{
+    position: absolute;
+    top: -100px;
+    left: 150px;
+    z-index: 3;
+    transform: scale(.75);
+}
+
+.data-0 p{
+    position: absolute;
+    top: 70px;
+    width: 135px;
+    left: 70px;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #000;
+    line-height: 20px;
+}
+
+.title-0{
+    position: absolute;
+    width: 270px;
+    height: 140px;
+    top: 130px;
+    right: 60px;
+    background: transparent;
+}
+
+.title-0 p{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    font-size: 20px;
+    line-height: 3px;
+}
+
+.contents1{
+    position: relative;
+    float: left;
+    top: 23px;
+    left: 12px;
+    width: 338px;
+    z-index: 1;
+    height: 188px;
+    border:solid 3px #252525;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+.baloon-1{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: 3;
+}
+
+.title-1{
+    position: absolute;
+    width: 120px;
+    height: 90px;
+    top: 22px;
+    left: 29px;
+    z-index: 5;
+    font-size: 18px;
+}
+
+.contents2{
+    position: relative;
+    float: left;
+    top: 20px;
+    left: 20px;
+    width: 255px;
+    height: 188px;
+    border: solid 3px #252525;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+.baloon-2{
+    position: absolute;
+    top: -8px;
+    left: -15px;
+    z-index: 3;
+}
+
+.title-2{
+    position: absolute;
+    width: 115px;
+    height: 100px;
+    top: 20px;
+    left: 40px;
+    z-index: 5;
+    font-size: 18px;
+    line-height: 20px;
+    background: transparent;
+}
+
+.contents3{
+    position: relative;
+    float: left;
+    top: 35px;
+    left: 15px;
+    width: 255px;
+    height: 188px;
+    border: solid 3px #252525;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+.baloon-3{
+    position: absolute;
+    top: -12px;
+    left: 120px;
+    z-index: 3;
+}
+
+.title-3{
+    position: absolute;
+    width: 105px;
+    height: 65px;
+    top: 16px;
+    left: 20px;
+    z-index: 5;
+    font-size: 15px;
+    line-height: 15px;
+    background: transparent;
+}
+
+.contents4{
+    position: relative;
+    float: left;
+    top: 30px;
+    left: 20px;
+    width: 337px;
+    height: 187px;
+    border: solid 3px #252525;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+.baloon-4{
+    position: absolute;
+    top: -10px;
+    left: 200px;
+    z-index: 3;
+}
+
+.title-4{
+    position: absolute;
+    width: 115px;
+    height: 60px;
+    top: 10px;
+    left: 23px;
+    z-index: 5;
+    font-size: 15px;
+    background: transparent;
+}
+
+.caption-0,
+.caption-1,
+.caption-2,
+.caption-3,
+.caption-4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -3px;
+    left: -3px;
+    z-index: 15;
+    font-family: "kikaifont";
+    opacity: 0;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+    border: solid 3px transparent;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+.captitle-0,
+.capmonth-0,
+.capdata-0,
+.captitle-1,
+.capmonth-1,
+.capdata-1,
+.captitle-2,
+.capmonth-2,
+.capdata-2,
+.captitle-3,
+.capmonth-3,
+.capdata-3,
+.captitle-4,
+.capmonth-4,
+.capdata-4{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    opacity:0;
+    z-index: 20;
+    color: #fff;
+    font-family: "kikaifont";
+}
+
+.capmonth-0{
+    top: 60px;
+    width: 100px;
+}
+
+.capmonth-1,
+.capmonth-2,
+.capmonth-3,
+.capmonth-4{
+    top: 20px;
+    width: 100px;
+}
+
+.capdata-0{
+    top: 85px;
+    width: 100px;
+}
+
+.capdata-1,
+.capdata-2,
+.capdata-3,
+.capdata-4{
+    top: 45px;
+    width: 100px;
+}
+
+.captitle-0{
+    top: 130px;
+    width: 240px;
+    border-top: solid 1px #fff;
+    padding-top: 10px;
+    font-family: "honoka";
+}
+
+.captitle-1,
+.captitle-2,
+.captitle-3,
+.captitle-4{
+    top: 90px;
+    border-top: solid 1px #fff;
+    padding-top: 10px;
+    font-family: "honoka";
+}
+
+.captitle-1,
+.captitle-4{
+    width: 230px;
+    font-size: 19px;
+}
+
+.captitle-2,
+.captitle-3{
+    width: 190px;
+    font-size: 17px;
+}

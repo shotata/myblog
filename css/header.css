@@ -1,0 +1,99 @@
+@font-face{
+    font-family: nicomoji;
+    src: url('../font/nicomoji-plus_v0.9.ttf') format("truetype");
+}
+
+@font-face{
+    font-family: kikaifont;
+    src: url('../font/JISZ8903-Medium.otf') format("opentype");
+}
+
+@font-face{
+    font-family: lightnovelPOP;
+    src: url('../font/lightnovelPOP.otf') format("opentype");
+}
+
+@font-face{
+    font-family: honoka;
+    src: url('../font/font_1_honokamin.ttf') format("truetype");
+}
+
+.header{
+    position: relative;
+    width: 850px;
+    top: 30px;
+    padding: 0px;
+    margin: 0 auto;
+    font-family: "honoka";
+    border-bottom: solid 1px #959595;
+}
+
+.menu{
+    position: absolute;
+    list-style-type: none;
+    right: 0px;
+    top: -45px;
+}
+
+.menu img{
+    padding-top: 9px;
+}
+
+.menu li{
+    width: 80px;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.menu li a{
+    width: auto;
+    color: #666;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 0;
+    text-decoration: none;
+    display: block;
+}
+
+.menu li a:hover{
+    color: #555;
+}
+
+.page-top{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 10;
+}
+
+.boton{
+    position: absolute;
+    top: 20px;
+    left: 19px;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-top: solid 3px #252525;
+    border-right: solid 3px #252525;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    z-index: 15;
+}
+
+.page-top a{
+    outline: none;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;/* width,heightの半分 */
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background-color: #b5b5b5;/* 円の色 */
+    display: block;
+}
+
+.page-top a:hover{
+    background: #999;
+}

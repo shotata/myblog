@@ -1,0 +1,139 @@
+.body-right h2{
+    width: 270px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    color: #b5b5b5;
+    border-bottom: solid 2px #b5b5b5;
+    font-family: nicomoji;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.profile{
+    width: 300px;
+    height: 150px;
+    margin: 100px auto;
+    padding-bottom: -50px;
+    background: transparent;
+}
+
+.icon{
+    position: relative;
+    outline: none;
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    -webkit-border-radius: 25px;/* width,heightの半分 */
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: transparent;/* 円の色 */
+    display: block;
+    overflow: hidden;
+}
+
+.icon img{
+    position: absolute;
+    top: 0px;
+    left: -5px;
+}
+
+.profile h3{
+    position: relative;
+    top: 12px;
+    left: 10px;
+    margin-bottom: 30px;
+}
+
+.profile p{
+    clear: left;
+    font-size: 13px;
+}
+
+.profile h5{
+    font-size: 12px;
+    left: 30px;
+    top: -50px;
+    font-family: "lightnovelPOP";
+}
+
+.newarticle{
+    width: 300px;
+    margin: 0 auto;
+    background: transparent;
+    margin-bottom: 50px;
+}
+
+.newarticle a{
+    color: #000;
+    text-decoration: none;
+    -webkit-transition: all 0.1s linear 0s;
+    -moz-transition: all 0.1s linear 0s;
+    -ms-transition: all 0.1s linear 0s;
+    -o-transition: all 0.1s linear 0s;
+    transition: all 0.1s linear 0s;
+}
+
+.newarticle a:hover{
+    -webkit-text-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+    -moz-text-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+    text-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.calender{
+    width: 300px;
+    height: 280px;
+    margin: auto;
+    background: transparent;
+}
+
+.popular{
+    width: 300px;
+    height: 600px;
+    margin: 0 auto;
+    background: transparent;
+}
+
+.fig{
+    position: relative;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.body-right .fig figcaption{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: auto;
+    z-index: 2;
+    width: 101%;
+    height: 100px;
+    background: rgba(0,0,0,.7);
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+    opacity: 1;
+}
+
+.body-right .fig figcaption:hover{
+    opacity: 0;
+}
+
+.body-right .tag{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 200px;
+    height: 100px;
+    font-size: 15px;
+    color: #fffaf0;
+    text-align: center;
+    overflow: hidden;
+}
