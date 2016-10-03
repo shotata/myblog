@@ -1,3 +1,24 @@
+@font-face{
+    font-family: nicomoji;
+    src: url('../font/nicomoji-plus_v0.9.ttf') format("truetype");
+}
+
+@font-face{
+    font-family: kikaifont;
+    src: url('../font/JISZ8903-Medium.otf') format("opentype");
+}
+
+@font-face{
+    font-family: lightnovelPOP;
+    src: url('../font/lightnovelPOP.otf') format("opentype");
+}
+
+@font-face{
+    font-family: honoka;
+    src: url('../font/font_1_honokamin.ttf') format("truetype");
+}
+
+
 .body{
     width: 1020px;
     margin: 0 auto;
@@ -13,10 +34,10 @@ a{
 }
 
 .body-left{
-    width: 678px;
+    width: 658px;
     left: 0px;
     float: left;
-    margin-left: -10px;
+    margin-left: 20px;
 }
 
 .body-right{

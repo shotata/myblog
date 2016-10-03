@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+body{
+  font-family: Verdana;
+  font-size: 16px;
+  background: #e0e0e0;
+}
+textarea,
+input,
+select{
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+}
+textarea{
+  width: 800px;
+  font-size: 16px;
+}
+textarea:focus{
+  outline: none;
+}
+select{
+  height: 20px;
+  margin-left: 20px;
+}
+
+.toukou{
+  width: 800px;
+  margin: 0px auto;
+}
+.title{
+  height: 30px;
+  padding: 7px 15px;
+}
+.content{
+  height: 500px;
+  padding: 15px;
+}
+.tag{
+  width: 750px;
+  height: 25px;
+  margin: 0 0 0 22px;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+}
+.status,
+.date{
+  margin: 50px;
+  outline: none;
+}
+.category{
+  margin-left: 45px;
+}
+.touroku{
+  width: 200px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: #b0c4de;
+  border: none;
+  border-radius: 5px;
+}
+.touroku:hover{
+  background: #6495ed;
+}
+
+
+
+.HiddenCheckbox{
+  display: none;
+}
+
+
+.MenuContainer{
+  display: inline-block;
+  margin: 20px;
+}
+
+
+.MenuHeader{
+  float: left;
+  position: relative;
+  display: inline-block;
+  font-weight: 100;
+  line-height: 30px;
+  margin: 0 0 0 15px;
+  opacity: 0;
+  color: #999;
+  z-index: 2;
+  -webkit-transform: translate3d(0, -15px, 0);
+  transform: translate3d(0, -15px, 0);
+  -webkit-transition: -webkit-transform 0.6s, opacity 0.5s;
+  transition: transform 0.6s, opacity 0.5s;
+}
+.HiddenCheckbox:checked ~ .MenuHeader{
+  opacity: 1;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+
+.MenuHeader ul{
+  height: 30px;
+  margin: 0 100px;
+  padding: 0 60px 0px 40px;
+  background: #ddd;
+  border-radius: 15px;
+}
+.MenuHeader li{
+  float: left;
+  margin: 0 0 0 20px;
+  list-style-type: none;
+  line-height: 30px;
+}
+.MenuHeader a{
+  text-decoration: none;
+  color: #222;
+  border: none;
+}
+.MenuHeader a:hover{
+  color: #6495ed;
+}
+
+
+.Menu{
+  background-color: rgba(20,20,20,0.8);
+  left: -80%;
+  position: absolute;
+  top: 0;
+  width: 80%;
+  height: 100%;
+  padding: 150px 0 0 0;
+  -webkit-transition: left 0.4s;
+  transition: left 0.4s;
+}
+.HiddenCheckbox:checked ~ .Menu{
+  left: 0px;
+}
+
+
+.MenuIcon{
+  cursor: pointer;
+  display: block;
+  float: left;
+  height: 30px;
+  position: relative;
+  width: 30px;
+  z-index: 3;
+}
+.MenuIcon::before {
+  -webkit-box-shadow: #999999 0 12px 0;
+  box-shadow: #999999 0 12px 0;
+  height: 6px;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  width: 30px;
+}
+.MenuIcon::after {
+  bottom: 0;
+  height: 6px;
+  -webkit-transform-origin: left bottom;
+  -ms-transform-origin: left bottom;
+  transform-origin: left bottom;
+  width: 30px;
+}
+.MenuIcon::before,
+.MenuIcon::after {
+  background: #999999;
+  display: block;
+  content: '';
+  position: absolute;
+  -webkit-transition: -webkit-box-shadow 0.2s linear, -webkit-transform 0.4s 0.2s;
+  transition: box-shadow 0.2s linear, transform 0.4s 0.2s;
+}
+.HiddenCheckbox:checked ~ .MenuIcon::before{
+  -webkit-box-shadow: transparent 0 0 0;
+  box-shadow: transparent 0 0 0;
+  -webkit-transform: rotate(45deg) translate3d(6px, -3px, 0);
+  transform: rotate(45deg) translate3d(6px, -3px, 0);
+}
+.HiddenCheckbox:checked ~ .MenuIcon::after{
+  -webkit-transform: rotate(-45deg) translate3d(6px, 3px, 0);
+  transform: rotate(-45deg) translate3d(6px, 3px, 0);
+}
+
+
+.card-holder{
+  padding: 0 50px 0 70px;
+  position: absolute;
+}
+.card-article{
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin: 5px auto;
+  opacity: 1;
+  background-color: #999;
+  border-radius: 2px;
+  position: relative;
+}
+.card-article img{
+  overflow: hidden;
+}
