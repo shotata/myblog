@@ -6,12 +6,12 @@
     margin: 0 auto;
 }
 
+
 .diamond{
     position: absolute;
     width: 850px;
     height: 788px;
 }
-
 .t-moji{
     position: relative;
     top: -1226px;
@@ -19,6 +19,7 @@
     padding: -38px;
     z-index: 0;
 }
+
 
 .diamond1{
     position: relative;
@@ -33,7 +34,6 @@
     transform: rotate(45deg);
     overflow: hidden;
 }
-
 .diamond1 canvas{
     position: absolute;
     top: -62px;
@@ -43,7 +43,6 @@
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
-
 .ripple-dia1{
     position: absolute;
     top: 12px;
@@ -55,7 +54,6 @@
     border: solid 139px #000;
     opacity: .2;
 }
-
 .diamond1 h1{
     position: absolute;
     top: 84px;
@@ -68,7 +66,6 @@
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
-
 .waku1{
     position: absolute;
     left: 0px;
@@ -79,6 +76,7 @@
     background: transparent;
     border: solid 12px #c33125;
 }
+
 
 .diamond2{
     position: relative;
@@ -94,6 +92,7 @@
     overflow: hidden;
 }
 
+
 .diamond3{
     position: relative;
     left: 8px;
@@ -107,6 +106,7 @@
     transform: rotate(45deg);
     overflow: hidden;
 }
+
 
 .diamond4{
     position: relative;
@@ -134,7 +134,6 @@
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
-
 .ripple-dia2,
 .ripple-dia3,
 .ripple-dia4{
@@ -148,7 +147,6 @@
     border: solid 107px #000;
     opacity: .2;
 }
-
 .diamond2 h1,
 .diamond3 h1,
 .diamond4 h1{
@@ -163,7 +161,6 @@
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
-
 .waku2,
 .waku3,
 .waku4{
@@ -178,10 +175,10 @@
     overflow: hidden;
     border: solid 8px #b5b5b5;
 }
-
 .waku4{
     border: solid 8px #252525;
 }
+
 
 .diamond5{
     position: relative;
@@ -196,7 +193,6 @@
     transform: rotate(45deg);
     overflow: hidden;
 }
-
 .diamond5 h1{
     position: absolute;
     top: 30px;
@@ -209,6 +205,7 @@
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
+
 
 .diamond6{
     position: relative;
@@ -223,7 +220,6 @@
     transform: rotate(45deg);
     overflow: hidden;
 }
-
 .diamond6 h1{
     position: absolute;
     top: 45px;
@@ -236,6 +232,7 @@
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
+
 
 .diamond7{
     position: relative;
@@ -250,7 +247,6 @@
     transform: rotate(45deg);
     overflow: hidden;
 }
-
 .diamond7 h1{
     position: absolute;
     top: 45px;
@@ -263,6 +259,7 @@
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
+
 
 .diamond8{
     position: relative;
@@ -277,7 +274,6 @@
     transform: rotate(45deg);
     overflow: hidden;
 }
-
 .diamond8 h1{
     position: absolute;
     top: 43px;

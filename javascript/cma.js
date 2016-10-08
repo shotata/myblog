@@ -2,6 +2,8 @@ $(function(){
     $(".bricks").bricks()
 });
 
+
+
 $(function(){
    $(".avoid").each(function(){
         var size = 28;
@@ -18,6 +20,8 @@ $(function(){
         $(this).text(txt);
     });
 });
+
+
 
 $(function(){
     var topBtn = $('.page-top');
@@ -36,6 +40,8 @@ $(function(){
         return false;
     });
 });
+
+
 
 $(function() {
 
@@ -87,36 +93,6 @@ $(function() {
     );
 });
 
-$(function(){
-    $('[class^=waku]').hover(
-        function(){
-            var str = $(this).attr("class"),
-                num = str.match(/\d/g).join(""),
-                border = 6;
-
-                if(num == 1){
-                    border = 12;
-                };
-
-            var d = $(".diamond" + num),
-                w = d.width() - 2*border,
-                h = d.height() - 2*border,
-                t = 0 - d.height() / 2 + 2*border,
-                l = 0 - d.width() / 2 + 2*border;
-
-            $(".ripple-dia" + num).stop(true).animate({'width':w,'height':h,'top':l,'left':l},'fast');
-        },
-        function(){
-            var str = $(this).attr("class"),
-                num = str.match(/\d/g).join(""),
-                b = 6;
-
-                if(num == 1){ b = 12;};
-
-            $(".ripple-dia" + num).stop(true).animate({'width':'0','height':'0','top':b,'left':b});
-        }
-    );
-});
 
 $(document).ready(function(){
         $(".auto-font0").flowtype();

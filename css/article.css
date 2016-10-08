@@ -2,7 +2,6 @@
     position: relative;
     line-height: 23px;
 }
-
 .article h1{
     position: relative;
     width: 638px;
@@ -15,12 +14,14 @@
     margin: 0 auto;
 }
 
+
 .bricks{
     position: relative;
     width: 653px;
     top: 115px;
     margin: 0 auto;
 }
+
 
 .cluster{
     width: 207px;
@@ -37,27 +38,24 @@
     -o-transition: all 0.3s linear 0s;
     transition: all 0.3s linear 0s;
 }
-
 .cluster img{
     -webkit-transform: scale(1.0);
     transform: scale(1.0);
 }
-
 .cluster:hover{
     -webkit-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
 }
-
 .cluster a{
     text-decoration: none;
 }
+
 
 .cluster-content{
     position: relative;
     width: 100%;
 }
-
 .cluster h3{
     position: relative;
     width: 180px;
@@ -67,6 +65,7 @@
     padding-bottom: 0px;
     margin-bottom: 20px;
 }
+
 
 .body-left .fig figcaption{
     position: absolute;
@@ -80,11 +79,9 @@
     transition: .5s ease;
     opacity: 0;
 }
-
 .body-left .fig figcaption:hover{
     opacity: 1;
 }
-
 .body-left .tag{
     position: absolute;
     top: 0;
@@ -97,7 +94,6 @@
     font-size: 15px;
     color: #fffaf0;
 }
-
 .body-left .tag h4{
     position: absolute;
     width: 50px;
@@ -106,6 +102,7 @@
     color: #fffaf0;
     border-bottom: solid 1px #fff;
 }
+
 
 .cluster-data{
     position: relative;
@@ -126,7 +123,6 @@
     -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
 }
-
 .day{
     position: absolute;
     top: 3px;
@@ -136,7 +132,6 @@
     text-align: center;
     color: #fffaf0;
 }
-
 .month{
     position: absolute;
     top: 17px;
@@ -146,7 +141,6 @@
     text-align: center;
     color: #fffaf0;
 }
-
 .comment{
     position: absolute;
     bottom: -20px;

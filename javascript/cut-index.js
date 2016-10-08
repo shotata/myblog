@@ -11,10 +11,14 @@ $(function(){
         //Canvasの準備
         canvas[cnt] = document.getElementById('canvas' + cnt);
         var ctx = canvas[cnt].getContext('2d'),
-            wid = 0, hei = 0;
+            wid = 300, hei = 100;
 
             // 生成画像の縦横長定義
-            wid = 300, hei = 140;
+            if(cnt == 1){
+                wid = 425, hei = 425;
+            }if(cnt == 2 || cnt == 3 || cnt == 4){
+                wid = 319, hei = 319;
+            }
 
         //画像が読み込み終わったら実行
         img.onload = function() {
