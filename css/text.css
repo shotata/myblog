@@ -1,45 +1,73 @@
 .blog-title{
   height: 100px;
   width: 90%;
-  top: 50px;
-  padding: 0px 0;
+  top: 70px;
+  padding: 0px 0 0px 0;
   position: relative;
   font-family: "honoka";
   border-bottom: 1px solid;
 }
 .blog-title h1{
-    margin-left: 30px;
+  margin-left: 30px;
 }
 .title-category-ul{
-  line-height: 40px;
   margin-left: 50px;
 }
 .title-category-ul li{
   float: left;
-  margin-left: 80px;
+  margin: 0 0 0px 80px;
   list-style-type: none;
 }
 .title-category-ul a{
   text-decoration: none;
 }
-.title-category-ul a:hover{
+
+.CateBtn1,
+.CateBtn2,
+.CateBtn3{
+  padding: 20px 5px;
+}
+.CateBar1,
+.CateBar2,
+.CateBar3{
+  height: 1px;
+  width: 53%;
+  float: left;
+  margin: 5px 0px 0 11px;
   border-bottom: 2px solid;
+  opacity: 0;
+}
+.CateBtn1:hover ~ .CateBar1,
+.CateBtn2:hover ~ .CateBar2,
+.CateBtn3:hover ~ .CateBar3{
+  opacity: 1;
+  -moz-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
 }
 
 
 .article-title{
-  width: 80%;
-  margin: 130px 20px 30px 100px;
+  width: 90%;
+  margin: 130px 20px 30px 0px;
+  padding: 0 0 20px 0;
   position: relative;
   font-family: "honoka";
+  border-bottom: 1px dotted;
 }
 
 .article-title p{
   margin: 10px 0;
 }
 
+.article-title h5{
+  margin-bottom: -5px;
+}
+
 .article-text{
-    margin: 100px 30px 200px 30px;
+    margin: 50px 30px 200px 0px;
     font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
     font-weight: 500;
 }
