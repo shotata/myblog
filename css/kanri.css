@@ -63,6 +63,7 @@ select{
 }
 .touroku:hover{
   background: #6495ed;
+  cursor: pointer;
 }
 
 

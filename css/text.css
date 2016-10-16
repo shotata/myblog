@@ -11,11 +11,11 @@
   margin-left: 30px;
 }
 .title-category-ul{
-  margin-left: 50px;
+  margin-left: 30px;
 }
 .title-category-ul li{
   float: left;
-  margin: 0 0 0px 80px;
+  margin: 5px 0 0px 80px;
   list-style-type: none;
 }
 .title-category-ul a{
@@ -57,17 +57,141 @@
   font-family: "honoka";
   border-bottom: 1px dotted;
 }
-
 .article-title p{
   margin: 10px 0;
 }
-
 .article-title h5{
   margin-bottom: -5px;
 }
 
+
 .article-text{
-    margin: 50px 30px 200px 0px;
-    font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
-    font-weight: 500;
+  margin: 50px 30px 100px 0px;
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
+  font-weight: 500;
+}
+
+
+.last-article{
+  margin: 50px 0 0px 0;
+  padding: 0 0 50px 0;
+  border-bottom: 1px dotted;
+}
+
+
+.article-bn{
+  margin: 10px 20px;
+  padding: 0 0 30px 0;
+}
+.back{
+  float: left;
+}
+.next{
+  float: right;
+}
+
+
+.comment-class{
+  top: 0px;
+  margin: 0px 0;
+  padding: 50px 0;
+}
+.comment-class h3{
+  margin: 0px 0;
+  padding: 10px 0
+}
+
+.your-comment{
+  width: 80%;
+  background: #fff;
+  border: 1px  solid #aaa;
+  border-radius: 3px;
+  margin: 10px auto;
+  padding: 8px 15px 8px 15px;
+}
+.your-comment p{
+  margin: 0px 0px 10px 10px;
+  padding: 0px 0px 0px 0px;
+  line-height: 20px;
+}
+.your-name{
+  padding-right: 10px;
+  border-right: 1px solid #666;
+}
+.your-date{
+  font-size: 13px;
+  margin: 0 0 0 10px;
+}
+.your-comment i{
+  float: right;
+  margin-right: 10px;
+  font-size: 13px;
+  padding: 5px
+}
+.your-comment i:hover{
+  color: #888;
+  -moz-transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
+}
+.thumb:{
+
+}
+.good-cnt{
+  float: right;
+  font-size: 10px;
+  margin: 0 15px 0 -10px;
+}
+.your-text{
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  margin: 10px 0px 0 0;
+  padding: 10px 0px 0 0;
+}
+.reply{
+  padding: 15px 0 0 15px;
+}
+
+
+.your-form{
+  margin-top: 70px;
+}
+.your-form input{
+  width: 300px;
+  line-height: 24px;
+  margin: 5px 20px;
+  border-radius: 5px;
+  padding:0 0 0 5px;
+  border: 1px solid #aaa;
+}
+.your-form input:focus{
+  outline: none;
+}
+.comment{
+  width: 450px;
+  height: 150px;
+  margin: 5px 20px;
+  line-height: 150px;
+  padding: 0 0 0 5px;
+}
+.your-form textarea{
+  border-radius: 5px;
+}
+.your-form textarea:focus{
+  outline: none;
+}
+.touroku{
+  width: 20px;
+  height: 30px;
+  margin-top: 200px;
+  background: #b0c4de;
+  border: none;
+  border-radius: 5px;
+}
+.touroku:hover{
+  background: #6495ed;
+  cursor: pointer;
 }
