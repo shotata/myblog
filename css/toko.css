@@ -1,0 +1,290 @@
+@charset "UTF-8";
+
+body{
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
+  font-size: 16px;
+  background: #e0e0e0;
+}
+textarea,
+input,
+select{
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+}
+textarea{
+  width: 800px;
+  font-size: 16px;
+}
+textarea:focus{
+  outline: none;
+}
+select{
+  height: 20px;
+  margin-left: 20px;
+}
+
+
+.blog-title{
+  height: 100px;
+  top: 0px;
+  padding: 0px 0 0px 0;
+  margin: 0 0px 60px 0;
+  position: relative;
+  font-family: "honoka";
+  border-bottom: 1px dotted;
+  opacity: 1;
+}
+.blog-title a{
+  text-decoration: none;
+}
+.blog-title h1{
+  width: 300px;
+  margin: 0 0px 0 30px;
+  padding: 0 0px 0 0;
+  display: inline;
+}
+.title-category-ul{
+  height: 1px;
+  margin: 0 auto;
+  display: inline;
+}
+.title-category-ul li{
+  float: left;
+  margin: 5px 0 0px 80px;
+  list-style-type: none;
+}
+.title-category-ul a{
+  text-decoration: none;
+}
+
+.CateBtn1,
+.CateBtn2,
+.CateBtn3{
+  padding: 10px 5px 20px 5px;
+}
+.CateBar1,
+.CateBar2,
+.CateBar3{
+  height: 1px;
+  width: 53%;
+  float: left;
+  margin: 5px 0px 0 11px;
+  border-bottom: 2px solid;
+  opacity: 0;
+}
+.CateBtn1:hover ~ .CateBar1,
+.CateBtn2:hover ~ .CateBar2,
+.CateBtn3:hover ~ .CateBar3{
+  opacity: 1;
+  -moz-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+.HiddenCheckbox:checked ~ .MenuHeader{
+  z-index: 6;
+}
+.HiddenCheckbox:checked{
+  z-index: 6;
+}
+.HiddenCheckbox:checked ~ .MenuIcon{
+  z-index: 6;
+}
+.HiddenCheckbox:checked ~ .Menu{
+  z-index: 5;
+}
+
+
+.toukou{
+  width: 800px;
+  margin: 0px auto;
+}
+.title{
+  height: 30px;
+  padding: 7px 15px;
+}
+.content{
+  height: 500px;
+  padding: 15px;
+}
+.tag{
+  width: 750px;
+  height: 25px;
+  margin: 0 0 0 18px;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+}
+.status,
+.date{
+  margin: 50px;
+  outline: none;
+}
+.category{
+  margin-left: 34px;
+}
+.touroku{
+  width: 200px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: #b0c4de;
+  border: none;
+  border-radius: 5px;
+}
+.touroku:hover{
+  background: #6495ed;
+  cursor: pointer;
+}
+
+
+
+.HiddenCheckbox{
+  display: none;
+}
+
+
+.MenuContainer{
+  display: inline-block;
+  margin: 20px;
+}
+
+
+.MenuHeader{
+  float: left;
+  position: relative;
+  display: inline-block;
+  font-weight: 100;
+  line-height: 30px;
+  margin: 0 0 0 15px;
+  opacity: 0;
+  color: #999;
+  z-index: 2;
+  font-family: Verdana;
+  -webkit-transform: translate3d(0, -15px, 0);
+  transform: translate3d(0, -15px, 0);
+  -webkit-transition: -webkit-transform 0.6s, opacity 0.5s;
+  transition: transform 0.6s, opacity 0.5s;
+}
+.HiddenCheckbox:checked ~ .MenuHeader{
+  opacity: 1;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+
+.MenuHeader ul{
+  height: 30px;
+  margin: 0 100px;
+  padding: 0 60px 0px 40px;
+  background: #ddd;
+  border-radius: 15px;
+}
+.MenuHeader li{
+  float: left;
+  margin: 0 0 0 20px;
+  list-style-type: none;
+  line-height: 30px;
+}
+.MenuHeader a{
+  text-decoration: none;
+  color: #222;
+  border: none;
+}
+.MenuHeader a:hover{
+  color: #6495ed;
+}
+
+
+.Menu{
+  background-color: rgba(20,20,20,0.8);
+  left: -80%;
+  position: absolute;
+  top: 0;
+  width: 80%;
+  min-height: 100%;
+  height: auto !important;
+  margin: 0 0 0 0;
+  padding: 130px 0 150px 0;
+  -webkit-transition: left 0.4s;
+  transition: left 0.4s;
+}
+.HiddenCheckbox:checked ~ .Menu{
+  left: 0px;
+}
+
+
+.MenuIcon{
+  cursor: pointer;
+  display: block;
+  float: left;
+  height: 30px;
+  position: relative;
+  width: 30px;
+  z-index: 3;
+}
+.MenuIcon::before {
+  -webkit-box-shadow: #999999 0 12px 0;
+  box-shadow: #999999 0 12px 0;
+  height: 6px;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  width: 30px;
+}
+.MenuIcon::after {
+  bottom: 0;
+  height: 6px;
+  -webkit-transform-origin: left bottom;
+  -ms-transform-origin: left bottom;
+  transform-origin: left bottom;
+  width: 30px;
+}
+.MenuIcon::before,
+.MenuIcon::after {
+  background: #999999;
+  display: block;
+  content: '';
+  position: absolute;
+  -webkit-transition: -webkit-box-shadow 0.2s linear, -webkit-transform 0.4s 0.2s;
+  transition: box-shadow 0.2s linear, transform 0.4s 0.2s;
+}
+.HiddenCheckbox:checked ~ .MenuIcon::before{
+  -webkit-box-shadow: transparent 0 0 0;
+  box-shadow: transparent 0 0 0;
+  -webkit-transform: rotate(45deg) translate3d(6px, -3px, 0);
+  transform: rotate(45deg) translate3d(6px, -3px, 0);
+}
+.HiddenCheckbox:checked ~ .MenuIcon::after{
+  -webkit-transform: rotate(-45deg) translate3d(6px, 3px, 0);
+  transform: rotate(-45deg) translate3d(6px, 3px, 0);
+}
+
+
+.card-holder{
+  height: 100%;
+  padding: 0 50px 0 50px;
+  position: absolute;
+}
+.card-article{
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  margin: 5px 5px 5px 0;
+  opacity: 1;
+  background-color: #999;
+  border-radius: 2px;
+  position: relative;
+}
+.card-article canvas{
+
+}
+.card-article h2{
+  margin: 0 0 0 10px;
+}
+.card-article p{
+  margin: 10px 0 0 10px;
+}

@@ -6,9 +6,14 @@
   position: relative;
   font-family: "honoka";
   border-bottom: 1px solid;
+  z-index: 0;
+}
+.blog-title a{
+  text-decoration: none;
 }
 .blog-title h1{
   margin-left: 30px;
+  display: inline;
 }
 .title-category-ul{
   margin-left: 30px;

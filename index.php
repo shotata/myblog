@@ -3,11 +3,14 @@
 <head>
     <meta charset="utf-8">
     <title>管理人ページ</title>
-    <link rel="stylesheet" href="css/kanri.css">
-    <script type="text/javascript" src="javascript/kanri.js"></script>
-    <script type="text/javascript" src="javascript/cut-searh.js"></script>
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/toko.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script type="text/javascript" src="javascript/touko.js"></script>
+    <script type="text/javascript" src="javascript/cut-toko.js"></script>
 </head>
 <body>
+<canvas id="canvas1" data-src="img/20160205-pointbreak-thumb-950x713-20824.jpg" width="300" height="100"></canvas>
 
     <div class="MenuContainer">
         <input id="menu" type="checkbox" name="menu" class="HiddenCheckbox"/>
@@ -20,20 +23,23 @@
           <li><a href="">anime</a></li>
         </ul></span>
         <nav class="Menu">
-        <span class="card-holder">
-            <div class="card-article"><h2>title here</h2><p>text here</p></div>
-            <div class="card-article"><h2>title here</h2><p>text here</p></div>
-            <div class="card-article"><h2>title here</h2><p>text here</p></div>
-            <div class="card-article"><h2>title here</h2><p>text here</p></div>
-            <div class="card-article"><h2>title here</h2><p>text here</p></div>
-            <div class="card-article"><h2>title here</h2><p>text here</p></div>
-            <div class="card-article"><h2>title here</h2><p>text here</p></div>
-            <div class="card-article"><h2>title here</h2><p>text here</p></div>
-        </span>
+            <span class="card-holder">
+
+            </span>
         </nav>
     </div>
 
     <div class="toukou">
+        <div class="blog-title">
+            <a href="index1.html"><h1>名もなき感情を綴れ。</h1></a>
+            <div class="title-category-ul">
+                <ul>
+                    <li><a href="comic.html" class="CateBtn1">comic</a><span class="CateBar1"></span></li>
+                    <li><a href="movie.html" class="CateBtn2">movie</a><span class="CateBar2"></span></li>
+                    <li><a href="anime.html" class="CateBtn3">anime</a><span class="CateBar3"></span></li>
+                </ul>
+            </div>
+        </div>
         <form method="POST" action="data_post.php">
             <p>タイトル</p>
             <textarea name="title" class="title" placeholder="title here"></textarea>
@@ -77,6 +83,14 @@
             <input type="radio" name="category" value="3">anime</span></p>
             <p><input type="submit" class="touroku" value="登録"></p>
         </form>
+    </div>
+    <div class="footer">
+        <h4></h4>
+        <div class="page-top">
+            <a href="#">
+                <div class="boton"></div>
+            </a>
+        </div>
     </div>
 </body>
 </html>
