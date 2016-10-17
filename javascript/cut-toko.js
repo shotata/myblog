@@ -11,7 +11,7 @@ $(function(){
         //Canvasの準備
         canvas[cnt] = document.getElementById('canvas' + cnt);
         var ctx = canvas[cnt].getContext('2d'),
-            wid = 200, hei = 100;
+            wid = 200, hei = 130;
 
         //画像が読み込み終わったら実行
         img.onload = function() {

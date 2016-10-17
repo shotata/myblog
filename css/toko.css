@@ -160,7 +160,7 @@ select{
   line-height: 30px;
   margin: 0 0 0 15px;
   opacity: 0;
-  color: #999;
+  color: #555;
   z-index: 2;
   font-family: Verdana;
   -webkit-transform: translate3d(0, -15px, 0);
@@ -180,7 +180,7 @@ select{
   height: 30px;
   margin: 0 100px;
   padding: 0 60px 0px 40px;
-  background: #ddd;
+  background: #ccc;
   border-radius: 15px;
 }
 .MenuHeader li{
@@ -191,7 +191,7 @@ select{
 }
 .MenuHeader a{
   text-decoration: none;
-  color: #222;
+  color: #555;
   border: none;
 }
 .MenuHeader a:hover{
@@ -200,15 +200,13 @@ select{
 
 
 .Menu{
-  background-color: rgba(20,20,20,0.8);
-  left: -80%;
+  background-color: rgba(242,242,242,0.9);
+  left: -82%;
   position: absolute;
   top: 0;
-  width: 80%;
-  min-height: 100%;
-  height: auto !important;
-  margin: 0 0 0 0;
-  padding: 130px 0 150px 0;
+  width: 82%;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 150px 0px;
   -webkit-transition: left 0.4s;
   transition: left 0.4s;
 }
@@ -265,26 +263,42 @@ select{
 
 
 .card-holder{
-  height: 100%;
-  padding: 0 50px 0 50px;
-  position: absolute;
+  top: 130px;
+  left: 50px;
+  right: 50px;
+  position: relative;
 }
 .card-article{
   display: inline-block;
+  vertical-align: top;
   width: 200px;
-  height: 250px;
-  margin: 5px 5px 5px 0;
-  opacity: 1;
-  background-color: #999;
+  min-height: 250px;
+  margin: 5px 5px 15px 0;
   border-radius: 2px;
   position: relative;
 }
 .card-article canvas{
-
+  width: 200px;
+  height: 130px;
+  border: 1px solid #bbb;
 }
-.card-article h2{
-  margin: 0 0 0 10px;
+.LiArInfo{
+  margin: 0px;
+  padding: 0px;
+  color: #555;
 }
-.card-article p{
-  margin: 10px 0 0 10px;
+.LiArDate{
+  float: right;
+  margin: 0px 0px 0 120px;
+  font-family: "honoka";
+  font-size: 12px;
+}
+.LiArInfo p{
+  margin: 10px;
+  padding: 10px 0 0 0;
+}
+.LiArComm{
+  bottom: 0px;
+  float: right;
+  margin: 5px
 }

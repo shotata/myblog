@@ -5,12 +5,11 @@
     <title>管理人ページ</title>
     <link rel="stylesheet" href="css/body.css">
     <link rel="stylesheet" href="css/toko.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <script type="text/javascript" src="javascript/touko.js"></script>
+    <script type="text/javascript" src="javascript/jquery-ver2.1.3.min.js"></script>
     <script type="text/javascript" src="javascript/cut-toko.js"></script>
+    <script type="text/javascript" src="javascript/toko.js"></script>
 </head>
 <body>
-<canvas id="canvas1" data-src="img/20160205-pointbreak-thumb-950x713-20824.jpg" width="300" height="100"></canvas>
 
     <div class="MenuContainer">
         <input id="menu" type="checkbox" name="menu" class="HiddenCheckbox"/>
@@ -24,7 +23,118 @@
         </ul></span>
         <nav class="Menu">
             <span class="card-holder">
-
+                <dvi class="card-article">
+                  <canvas id="canvas1" data-src="img/20160205-pointbreak-thumb-950x713-20824.jpg" width="200" height="130"></canvas>
+                  <span class="LiArInfo">
+                    <h5 class="LiArDate">2016/09/11</h5>
+                    <p class="LiArTitle"> 8月読んだマンガの中から面白かった1(+2)冊を紹介する回。「彼女と彼女の猫」
+                    <h5 class="LiArComm">comment(10)</h5>
+                  </span>
+                </dvi>
+                <dvi class="card-article" class="cluster">
+                  <canvas id="canvas1" data-src="img/20160205-pointbreak-thumb-950x713-20824.jpg" width="200" height="130"></canvas>
+                  <span class="LiArInfo">
+                    <h5 class="LiArDate">2016/09/11</h5>
+                    <p class="LiArTitle"> 8月読んだマンガの中から面白かった1(+2)冊を紹介する回。「彼女と彼女の猫」「大東京トイボックス」「トラップホール」
+                    <h5 class="LiArComm">comment(10)</h5>
+                  </span>
+                </dvi>
+                <dvi class="card-article" class="cluster">
+                  <canvas id="canvas1" data-src="img/20160205-pointbreak-thumb-950x713-20824.jpg" width="200" height="130"></canvas>
+                  <span class="LiArInfo">
+                    <h5 class="LiArDate">2016/09/11</h5>
+                    <p class="LiArTitle"> 8月読んだマンガの中から面白かった1(+2)冊を紹介する回。「彼女と彼女の猫」「大東京トイボックス」「トラップホール」
+                    <h5 class="LiArComm">comment(10)</h5>
+                  </span>
+                </dvi>
+                <dvi class="card-article" class="cluster">
+                  <canvas id="canvas1" data-src="img/20160205-pointbreak-thumb-950x713-20824.jpg" width="200" height="130"></canvas>
+                  <span class="LiArInfo">
+                    <h5 class="LiArDate">2016/09/11</h5>
+                    <p class="LiArTitle"> 8月読んだマンガの中から面白かった1(+2)冊を紹介する回。「彼女と彼女の猫」「大東京トイボックス」「トラップホール」
+                    <h5 class="LiArComm">comment(10)</h5>
+                  </span>
+                </dvi>
+                <dvi class="card-article" class="cluster">
+                  <canvas id="canvas1" data-src="img/20160205-pointbreak-thumb-950x713-20824.jpg" width="200" height="130"></canvas>
+                  <span class="LiArInfo">
+                    <h5 class="LiArDate">2016/09/11</h5>
+                    <p class="LiArTitle"> 8月読んだマンガの中から面白かった1(+2)冊を紹介する回。「彼女と彼女の猫」「大東京トイボックス」「トラップホール」
+                    <h5 class="LiArComm">comment(10)</h5>
+                  </span>
+                </dvi>
+                <dvi class="card-article" class="cluster">
+                  <canvas id="canvas1" data-src="img/20160205-pointbreak-thumb-950x713-20824.jpg" width="200" height="130"></canvas>
+                  <span class="LiArInfo">
+                    <h5 class="LiArDate">2016/09/11</h5>
+                    <p class="LiArTitle"> 8月読んだマンガの中から面白かった1(+2)冊を紹介する回。「彼女と彼女の猫」「大東京トイボックス」「トラップホール」
+                    <h5 class="LiArComm">comment(10)</h5>
+                  </span>
+                </dvi>
+                <dvi class="card-article" class="cluster">
+                  <canvas id="canvas1" data-src="img/20160205-pointbreak-thumb-950x713-20824.jpg" width="200" height="130"></canvas>
+                  <span class="LiArInfo">
+                    <h5 class="LiArDate">2016/09/11</h5>
+                    <p class="LiArTitle"> 8月読んだマンガの中から面白かった1(+2)冊を紹介する回。「彼女と彼女の猫」「大東京トイボックス」「トラップホール」
+                    <h5 class="LiArComm">comment(10)</h5>
+                  </span>
+                </dvi>
+                <dvi class="card-article" class="cluster">
+                  <canvas id="canvas1" data-src="img/20160205-pointbreak-thumb-950x713-20824.jpg" width="200" height="130"></canvas>
+                  <span class="LiArInfo">
+                    <h5 class="LiArDate">2016/09/11</h5>
+                    <p class="LiArTitle"> 8月読んだマンガの中から面白かった1(+2)冊を紹介する回。「彼女と彼女の猫」「大東京トイボックス」「トラップホール」
+                    <h5 class="LiArComm">comment(10)</h5>
+                  </span>
+                </dvi>
+                <dvi class="card-article" class="cluster">
+                  <canvas id="canvas1" data-src="img/20160205-pointbreak-thumb-950x713-20824.jpg" width="200" height="130"></canvas>
+                  <span class="LiArInfo">
+                    <h5 class="LiArDate">2016/09/11</h5>
+                    <p class="LiArTitle"> 8月読んだマンガの中から面白かった1(+2)冊を紹介する回。「彼女と彼女の猫」「大東京トイボックス」「トラップホール」
+                    <h5 class="LiArComm">comment(10)</h5>
+                  </span>
+                </dvi>
+                <dvi class="card-article" class="cluster">
+                  <canvas id="canvas1" data-src="img/20160205-pointbreak-thumb-950x713-20824.jpg" width="200" height="130"></canvas>
+                  <span class="LiArInfo">
+                    <h5 class="LiArDate">2016/09/11</h5>
+                    <p class="LiArTitle"> 8月読んだマンガの中から面白かった1(+2)冊を紹介する回。「彼女と彼女の猫」「大東京トイボックス」「トラップホール」
+                    <h5 class="LiArComm">comment(10)</h5>
+                  </span>
+                </dvi>
+                <dvi class="card-article" class="cluster">
+                  <canvas id="canvas1" data-src="img/20160205-pointbreak-thumb-950x713-20824.jpg" width="200" height="130"></canvas>
+                  <span class="LiArInfo">
+                    <h5 class="LiArDate">2016/09/11</h5>
+                    <p class="LiArTitle"> 8月読んだマンガの中から面白かった1(+2)冊を紹介する回。「彼女と彼女の猫」「大東京トイボックス」「トラップホール」
+                    <h5 class="LiArComm">comment(10)</h5>
+                  </span>
+                </dvi>
+                <dvi class="card-article" class="cluster">
+                  <canvas id="canvas1" data-src="img/20160205-pointbreak-thumb-950x713-20824.jpg" width="200" height="130"></canvas>
+                  <span class="LiArInfo">
+                    <h5 class="LiArDate">2016/09/11</h5>
+                    <p class="LiArTitle"> 8月読んだマンガの中から面白かった1(+2)冊を紹介する回。「彼女と彼女の猫」「大東京トイボックス」「トラップホール」
+                    <h5 class="LiArComm">comment(10)</h5>
+                  </span>
+                </dvi>
+                <dvi class="card-article">
+                  <canvas id="canvas1" data-src="img/20160205-pointbreak-thumb-950x713-20824.jpg" width="200" height="130"></canvas>
+                  <span class="LiArInfo">
+                    <h5 class="LiArDate">2016/09/11</h5>
+                    <p class="LiArTitle"> 8月読んだマンガの中から面白かった1(+2)冊を紹介する回。「彼女と彼女の猫」
+                    <h5 class="LiArComm">comment(10)</h5>
+                  </span>
+                </dvi>
+                <dvi class="card-article" class="cluster">
+                  <canvas id="canvas1" data-src="img/20160205-pointbreak-thumb-950x713-20824.jpg" width="200" height="130"></canvas>
+                  <span class="LiArInfo">
+                    <h5 class="LiArDate">2016/09/11</h5>
+                    <p class="LiArTitle"> 8月読んだマンガの中から面白かった1(+2)冊を紹介する回。「彼女と彼女の猫」「大東京トイボックス」「トラップホール」
+                    <h5 class="LiArComm">comment(10)</h5>
+                  </span>
+                </dvi>
             </span>
         </nav>
     </div>
@@ -83,14 +193,6 @@
             <input type="radio" name="category" value="3">anime</span></p>
             <p><input type="submit" class="touroku" value="登録"></p>
         </form>
-    </div>
-    <div class="footer">
-        <h4></h4>
-        <div class="page-top">
-            <a href="#">
-                <div class="boton"></div>
-            </a>
-        </div>
     </div>
 </body>
 </html>
