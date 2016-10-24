@@ -150,7 +150,7 @@
                 </ul>
             </div>
         </div>
-        <form method="POST" action="data_post.php">
+        <form id="toko" method="POST" action="data_post.php">
             <p>タイトル</p>
             <textarea name="title" class="title" placeholder="title here"></textarea>
             <p>本文</p>
@@ -160,7 +160,7 @@
             <input type="radio" name="status" value="1" checked>公開
             <input type="radio" name="status" value="2">下書き
             <input type="radio" name="status" value="3">予約</span><span class="date">
-            <input type="date" name="date_Ymd" id="date_Ymd">
+            <input type="date" name="date_Ymd" id="date_Ymd" value="">
             <select name="date_His" id="date_His">
                 <option value=" 00:00:00">00:00</option>
                 <option value=" 01:00:00">01:00</option>

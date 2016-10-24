@@ -1,0 +1,97 @@
+login as: vagrant
+[vagrant@localhost ~]$ cd blogDB
+[vagrant@localhost blogDB]$ php -S 192.168.33.10:8000
+
+[vagrant@localhost blogDB]$ mysql -u shotata -p
+Enter password:
+mysql> use blogDB
+Database changed
+mysql>
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| test               |
++--------------------+
+4 rows in set (0.00 sec)
+
+mysql> desc my_posts;
++---------------+-------------------+------+-----+---------+----------------+
+| Field         | Type              | Null | Key | Default | Extra          |
++---------------+-------------------+------+-----+---------+----------------+
+| id            | int(11)           | NO   | PRI | NULL    | auto_increment |
+| post_date     | datetime          | NO   |     | NULL    |                |
+| post_content  | longtext          | NO   |     | NULL    |                |
+| post_title    | text              | NO   |     | NULL    |                |
+| post_status   | enum('1','2','3') | YES  |     | NULL    |                |
+| post_modified | datetime          | YES  |     | NULL    |                |
+| post_picture  | varchar(100)      | YES  |     | NULL    |                |
++---------------+-------------------+------+-----+---------+----------------+
+7 rows in set (0.00 sec)
+
+mysql> desc my_comments;
++---------------------------+--------------+------+-----+---------+----------------+
+| Field                     | Type         | Null | Key | Default | Extra          |
++---------------------------+--------------+------+-----+---------+----------------+
+| comment_id                | int(11)      | NO   | PRI | NULL    | auto_increment |
+| comment_post_id           | int(11)      | YES  | MUL | NULL    |                |
+| comment_author            | tinytext     | YES  |     | NULL    |                |
+| comment_author_email      | varchar(100) | YES  |     | NULL    |                |
+| comment_author_url        | varchar(200) | YES  |     | NULL    |                |
+| comment_author_tw_account | varchar(100) | YES  |     | NULL    |                |
+| comment_date              | datetime     | YES  |     | NULL    |                |
+| comment_content           | text         | YES  |     | NULL    |                |
+| comment_parent            | int(11)      | YES  | MUL | NULL    |                |
++---------------------------+--------------+------+-----+---------+----------------+
+9 rows in set (0.00 sec)
+
+mysql> desc my_terms;
++---------------+-------------------+------+-----+---------+----------------+
+| Field         | Type              | Null | Key | Default | Extra          |
++---------------+-------------------+------+-----+---------+----------------+
+| term_id       | int(11)           | NO   | PRI | NULL    | auto_increment |
+| term_category | enum('1','2','3') | YES  |     | NULL    |                |
+| term_tag      | varchar(200)      | YES  |     | NULL    |                |
+| term_post_id  | int(11)           | YES  | MUL | NULL    |                |
+| term_cnt      | int(11)           | YES  |     | NULL    |                |
++---------------+-------------------+------+-----+---------+----------------+
+5 rows in set (0.00 sec)
+
+
+
+create table my_posts(
+id int not null auto_increment primary key,
+post_date datetime not null,
+post_content longtext not null,
+post_title text not null,
+post_status enum('1','2','3'),
+post_modified datetime,
+post_picture varchar(100)
+);
+
+create table my_comments(
+comment_id int not null auto_increment primary key,
+comment_post_id int,
+comment_author tinytext,
+comment_author_email varchar(100),
+comment_author_url varchar(200),
+comment_author_tw_account varchar(100),
+comment_date datetime,
+comment_content text,
+comment_parent int,
+foreign key (comment_post_id) references my_posts(id),
+foreign key (comment_parent) references my_comments(comment_id)
+);
+
+create table my_terms(
+term_id int not null auto_increment primary key,
+term_category enum('1','2','3'),
+term_tag varchar(200),
+term_post_id int,
+term_cnt int,
+foreign key (term_post_id) references my_posts(id)
+);
